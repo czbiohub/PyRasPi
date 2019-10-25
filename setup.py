@@ -6,12 +6,12 @@ setuptools.setup(
     author="Robert R. Puccinelli",
     author_email="robert.puccinelli@outlook.com",
     description="Raspberry Pi related Python utilities.",
-    url="https://github.com/czbiohub/bioe-python-common",
+    url="https://github.com/czbiohub/PyRasPi",
     packages=setuptools.find_packages(exclude=["*.tests", "*.tests.*",
                                                "tests.*", "tests"]),
     install_requires=[
         "RPi.GPIO",
-        "pymotors",
+        "pymotors @ http://github.com/czbiohub/PyMotors/tarball/master.tar.gz",
     ],
     test_suite="tests",
     classifiers=[
