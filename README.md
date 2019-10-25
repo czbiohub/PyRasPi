@@ -12,9 +12,10 @@ This repository contains Python utilities for interacting with a Raspberry Pi in
 
 ## Dependencies
 
-RPiOut :: RPi.GPIO
-RPiDC :: pymotors.DcBase
-RPiDCArray :: pymotors.DcArray
+RPiOut :: RPi.GPIO<br>
+RPiDC :: pymotors.DcBase<br>
+RPiDcArray :: RPi.GPIO<br>
+RPiDCArray :: pymotors.DcArray<br>
 
 ## Installation and Use
 ### Installing Module
